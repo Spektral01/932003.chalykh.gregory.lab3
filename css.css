@@ -1,0 +1,96 @@
+	body
+	{
+		margin: 0;
+	}
+	#Hea
+	{
+		background-color:green;
+		color:white;
+		padding: 1px 0% 1px 47%;
+		font-size: x-large;
+		font-family: Arial;
+	}
+
+	#MainCont
+	{
+		position: absolute;
+		margin: 0 27% 0;
+		margin-top:-40px ;
+	}
+
+	#List
+	{
+		position: relative;
+		min-height: 100vh;
+		width: 170px;
+		margin-right: 20px;
+		text-decoration: underline;
+		background-color: red;
+		color: white;
+	}
+	ul
+	{
+		display: table;
+	}
+	li
+	{
+		list-style-type: none;
+		margin: 10px;
+		width: 115px;
+		margin-left:-5px ;
+		margin-bottom: 15px;
+	}
+
+	#Text
+	{
+		position: relative;
+		top: 0;
+		margin-left: 200px;
+		margin-top: -102%;
+	}
+	#Txt
+	{
+		margin-bottom: 20px;
+	}
+	footer
+	{
+		position: fixed;
+		color: white;
+		background-color: black;
+		bottom: 0;
+		width: 100%;
+		right: 0;
+	}
+	#Foo
+	{
+		margin: auto;
+		padding: 3px;
+		width: 20px;
+	}
+
+@media (max-width: 1000px)
+{
+	#MainCont
+	{
+		position: absolute;
+		margin: 0 0 0;
+	}
+
+	#List
+	{
+		margin-top: -40px;
+	}
+	#Text
+	{
+		margin-top: -470px;
+	}
+	footer
+	{
+		position: relative;
+	}
+
+} 
+*::selection
+{
+	background-color:green;
+}
